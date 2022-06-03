@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.logo-producto{
+display: flex;
+}
+.site-navbar ul {
+    display: none;
+}
+.main-productos {
+    width: 90%;
+    margin: auto;
+}
+main img {
+    width: 100%;
+}
+
+.productos {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+#producto-2,#producto-3,#producto-4{
+    display: none;
+}
+.truck{
+    position: relative;
+}
+#truck {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    color: #39b54a;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    border: solid 1px #39b54a;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -30px;
+    
+}
+
+
+
+article p {
+    line-height: 20px;
+}
+
+.desc-productos {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+.banner {
+    width: 100%;
+}
+
+footer {
+    background-color: #fff;
+}
+
+
+
+.imagen-mercado-liebre {
+    width: 100px;
+    margin-bottom: 10px;
+    margin: 20px;
+    margin-top: 10px;
+
+}
+#buscador{
+    margin-top: 15px;
+     width: 90%;
+    border:solid 2px white;
+    border-radius: 5px;
+    height: 30px;
+   
+
+}
+
+.lupita {
+    display: inline-block;
+    background-color: white;
+    border: solid 1px white;
+    font-size: 20px;
+    width: 15px;
+    border-radius: 5px;
+    height: 28px;
+    position: relative;
+    opacity: 0.7;
+    right: 25px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+.pago-tarjeta {
+    color: #1259c3;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.autito {
+    color: #1259c3;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.segurity {
+    color: #1259c3;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.copyright {
+    margin-top: 40px;
+}
+
+.cuotas {
+    text-align: center;
+}
+
+h4 {
+    font-size: 23px;
+    margin-top: 15px;
+    color: #666;
+    
+    
+
+}
+
+.precio {
+    font-size: 18px;
+    width: 50%;
+}
+
+.descuento {
+    font-size: 16px;
+    color: #39b54a;
+    width: 50%;
+}
+
+.descripciones {
+    font-size: 16px;
+    line-height: 50px;
+    display: none;
+}
+.precio-descuento{
+    display: flex;
+    
+}
+
+.burger-menu {
+    background-color: #03264C;
+    width: 30px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: #ebebeb;
+}
+
+ul {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+
+}
+@media (min-width:361px){
+    .subtitulo{
+        margin-bottom: 20px;
+        width: 50%;
+
+    }
+article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.site-navbar ul {
+    display: block;
+
+}
+.descripciones{
+    display: block;
+    font-size: 14px;
+}
+.precio{
+    font-size: 12px;
+
+}
+.descuento{
+font-size: 12px;
+}
+.burger-menu{
+    display: none;
+}
+.contenedor-productos{
+    display: flex;
+}
+#producto-2{
+    display: block;
+    margin-left: 20px;
+}
+}
+
+@media (min-width:769px){
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .site-navbar ul {
+        display: block;
+    
+    }
+    .descripciones{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+
+}
